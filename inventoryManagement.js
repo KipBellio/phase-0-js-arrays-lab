@@ -1,10 +1,10 @@
 // Array
 let products = ["Laptop", "Phone", "Headphones", "Monitor"];
 //Function to log first product
-function logFirstProduct(arr){
-  console.log(arr[0]);
+function logFirstProduct(){
+  console.log(products[0]);
 }
-logFirstProduct(products);
+logFirstProduct();
 //Function to add product
 function addProduct(newProduct){
   products.push(newProduct);
